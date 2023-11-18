@@ -1,0 +1,22 @@
+@import '../common';
+
+#nav-div {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: $background-color2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    gap: 20px;
+    font-size: $large-font-size;
+    padding: 30px;
+
+    h4 {
+        color: $highlights;
+        text-shadow: 2px 2px 1px $dark;
+    }
+    h4:hover {
+        transform: scale(1.05);
+    }
+}
