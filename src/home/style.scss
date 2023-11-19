@@ -1,30 +1,39 @@
 @import '../common';
 
-#content {
+#content.content-home {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
     padding: 0 100px;
-}
 
-#home-text-div {
+    #home-text-div {
 
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
 
-    h1 {
-        font-size: $title-font-size;
-        text-shadow: 2px 2px 2px $background-color2;
+
+        h1 {
+            font-size: $title-font-size;
+            text-shadow: 2px 2px 2px $background-color2;
+            transition: transform 0.1s ease-out 0s, text-shadow 0.1s ease-out 0s;
+        }
+
+        h1:hover {
+            transform: scale(1.03);
+            text-shadow: 5px 5px 1.6px $background-color2;
+        }
+
+        h3 {
+            font-size: $med-font-size;
+        }
     }
 
-    h3 {
-        font-size: $large-font-size;
+    #home-img {
+        width: 500px;
+        box-shadow: 8px 8px 4px $dark;
     }
 }
 
-#home-img {
-    width: 500px;
-    box-shadow: 8px 8px 4px $dark;
-}
+

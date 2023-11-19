@@ -1,4 +1,4 @@
-import IceCreamImage from '../images/holding_ice_cream.jpg';
+import IceCreamImage from './holding_ice_cream.jpg';
 import '../common.scss';
 import './style.scss';
 

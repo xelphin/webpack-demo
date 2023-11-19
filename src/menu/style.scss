@@ -1,0 +1,20 @@
+@import '../common';
+
+#content.content-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 100px;
+
+    h2 {
+        font-size: $large-font-size;
+    }
+
+    #cards-holder {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        gap: 30px;
+    }
+}

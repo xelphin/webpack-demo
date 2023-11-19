@@ -1,0 +1,32 @@
+@import '../../common';
+
+#content.content-menu {
+    padding-bottom: 80px;
+    .card {
+
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 315px;
+        border: 0.8mm solid $dark;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 8px;
+        box-shadow: 5px 5px 2px $background-color2;
+        transition: transform 0.1s ease-out 0s, box-shadow 0.1s ease-out 0s;
+
+        img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover; /* Crop the image to cover the entire container */
+            object-position: center; 
+        }
+        h3 {
+            font-size: $med-font-size;
+        }
+    }
+    .card:hover {
+        transform: scale(0.98);
+        box-shadow: 0 0 0 $background-color2;
+    }
+}

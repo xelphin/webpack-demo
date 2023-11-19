@@ -1,0 +1,42 @@
+[
+    {
+      "title": "Ice Cream Coffee",
+      "description": "Ut vel pellentesque libero, et tincidunt dolor. Integer sollicitudin ullamcorper risus, a tempus velit ornare vitae. Sed venenatis tortor nec risus lacinia auctor.",
+      "imageName": "ice_cream_coffee.jpg"
+    },
+    {
+      "title": "Chocolate Balls",
+      "description": "Suspendisse in interdum justo. Nullam vel sollicitudin turpis. Vestibulum luctus, diam in dapibus dictum, massa risus ultrices tellus, at rhoncus odio turpis at leo",
+      "imageName": "chocolate_balls.jpg"
+    },
+    {
+      "title": "Chocolate Bar",
+      "description": "Aliquam erat volutpat. Etiam eleifend, mi a dapibus posuere, lacus sapien sollicitudin ante, sed tempor augue sapien eu mauris",
+      "imageName": "chocolate.jpg"
+    },
+    {
+        "title": "Coffee",
+        "description": "Sed enim justo, laoreet a hendrerit ut, ultrices sed nulla.",
+        "imageName": "coffee.jpg"
+    },
+    {
+        "title": "Croissant",
+        "description": "Ut ut dui sit amet felis mollis aliquet.",
+        "imageName": "croissant.jpg"
+    },
+    {
+        "title": "Ice Coffee",
+        "description": "Nulla euismod lectus tincidunt, aliquet arcu ornare, cursus lorem.",
+        "imageName": "drink_pouring_milk.jpg"
+    },
+    {
+        "title": "Ice Cream",
+        "description": "Quisque laoreet tristique est, eu commodo enim vestibulum eu.",
+        "imageName": "ice_cream.jpg"
+    },
+    {
+        "title": "Pancakes",
+        "description": "Proin pharetra purus pretium velit mollis tincidunt. In nibh lectus, scelerisque at tristique non, placerat sagittis orci. ",
+        "imageName": "pancakes.jpg"
+    }
+]
